@@ -40,7 +40,12 @@ while repete==True:
     elif operacao == '*':
         resultado: int = valor1 * valor2
     elif operacao == '/':
-        resultado: float = valor1 / valor2
+        if valor2 == 0:
+            print ('Divisor não pode ser 0')
+            repete = False
+            exit()
+        else : 
+            resultado: float = valor1 / valor2
     else :
         print('Você pressionou espaço e interrompeu a calculadora')
         repete = False
