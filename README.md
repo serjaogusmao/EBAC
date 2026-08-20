@@ -1,8 +1,7 @@
 # DOCUMENTAÇÃO DO PROJETO
 
-PARA A EXECUÇÃO, NO BASH DIGITE:
+PARA A EXECUÇÃO DA CALCULADORA, DIGITE NO BASH:
 >> ./calculadora.sh
-O arquivo shell irá executar calculadora
 
 EXPLICAÇÃO DO CÓDIGO DO ARQUIVO calculadora.py:
 
